@@ -15,7 +15,7 @@ En esta unidad empezamos a trabajar con **objetos**: aprenderás a crearlos a pa
 - Cómo se usan los métodos: parámetros, argumentos y valores devueltos.
 - Cómo se consultan y modifican las propiedades de un objeto (*getters* y *setters*).
 - Cómo se usan los métodos estáticos de las clases predefinidas.
-- Cómo se utilizan las clases *wrapper*, `String`, `Math` y las clases de entrada/salida estándar.
+- Cómo se utilizan las clases *wrapper*, `String`, `StringBuilder`, `Math`, `LocalDate` y las clases de entrada/salida estándar.
 - Cómo se destruyen los objetos y se libera la memoria.
 - Cómo se crea, compila y ejecuta una aplicación con un IDE.
 
@@ -28,7 +28,7 @@ En esta unidad empezamos a trabajar con **objetos**: aprenderás a crearlos a pa
 | 3 | [Métodos especiales](03-metodos-especiales.md) | *Getters* y *setters*, `toString`, `equals` y `hashCode` |
 | 4 | [Relaciones entre clases (introducción)](04-relaciones-entre-clases.md) | Composición, herencia, polimorfismo, clases abstractas e interfaces |
 | 5 | [Modificadores y la clase `Object`](05-modificadores-y-object.md) | Visibilidad, `final`, `static`, `abstract` y métodos de `Object` |
-| 6 | [Clases de uso común](06-clases-de-uso-comun.md) | *Wrappers*, `String`, `Math`, `Scanner` y `System.out` |
+| 6 | [Clases de uso común](06-clases-de-uso-comun.md) | *Wrappers*, `String`, `StringBuilder`, `Math`, `LocalDate`, `Scanner` y `System.out` |
 | 7 | [Memoria y entorno de desarrollo](07-memoria-y-entorno.md) | *Garbage collector*, compilación y ejecución, Eclipse |
 | 8 | [Práctica: tienda online](08-practica.md) | Práctica final de la unidad |
 | 9 | [Autoevaluación](09-autoevaluacion.md) | Test con soluciones |
@@ -44,7 +44,7 @@ Todos los ejemplos que aparecen en los documentos están completos en la carpeta
 | [`ut03.objetos`](ejemplos/src/ut03/objetos) | `Bombilla`, `PruebaBombilla` |
 | [`ut03.miembros`](ejemplos/src/ut03/miembros) | `Alumno`, `PruebaAlumno`, `PasoDeParametros` |
 | [`ut03.relaciones`](ejemplos/src/ut03/relaciones) | `Empleado`, `Departamento`, `Figura`, `Circulo`, `Rectangulo`, `Dibujable`… |
-| [`ut03.usocomun`](ejemplos/src/ut03/usocomun) | `ClasesDeUsoComun`, `EntradaTeclado` |
+| [`ut03.usocomun`](ejemplos/src/ut03/usocomun) | `ClasesDeUsoComun`, `EjemplosStringBuilder`, `EjemplosFechas`, `EntradaTeclado` |
 
 ### Cómo abrirlos en Eclipse
 
